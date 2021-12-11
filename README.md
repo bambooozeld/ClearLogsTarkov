@@ -5,6 +5,7 @@ Script that clears your logs once you run it
 1. Download the file or copy the code
 2. In the 2nd row is a variable called "default"
 3. Change the assigned value after the equal sign to your "Logs" folder path
+4. When you changed the path in the file you can just press enter once when it asks for your path once you run the program(leave empty)
 
 # Finding the Logs Folder
 1. Open BSG Launcher 
