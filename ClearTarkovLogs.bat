@@ -1,9 +1,11 @@
 @echo off
-set "default=YOUR _PATH"
+echo Make sure you set your default path to logs correct!
+timeout 2 /nobreak > nul
+set "default=D:\Games\EFT\Logs"
 echo Starting...
 timeout 2 /nobreak>nul
 :retry
-set /p LogsDirectory=Please input your Logs Directory (Default: %default%):
+set /p LogsDirectory=Please input your Logs Directory (Default: %default% (Change in file)):
 if "%LogsDirectory%"=="" set "LogsDirectory=%default%"
 if NOT EXIST "%LogsDirectory%" (
     echo Directory not valid, please retry
